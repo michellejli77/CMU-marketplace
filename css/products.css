@@ -1,4 +1,29 @@
 .row-2 {
   justify-content: space-between;
-  margin: 100px auto 50px;
+  margin: 10px auto 10px;
+}
+select {
+  border: 1px solid rgb(209, 48, 62);
+  padding: 5px;
+}
+select:focus {
+  outline: none;
+}
+
+.page-btn {
+  margin: 0 auto 80px;
+}
+.page-btn span {
+  display: inline-block;
+  border: 1px solid rgb(209, 48, 62);
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn span:hover {
+  background: rgb(209, 48, 62);
+  color: white;
 }
